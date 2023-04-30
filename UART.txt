@@ -1,0 +1,116 @@
+UART SPeed 57600
+
+[DBG] sel_fine_tmp=00000007, sel_mst_fine=00000008,fg_dly_adj=00000007
+[DBG] sel_fine_tmp=00000006, sel_mst_fine=00000008,fg_dly_adj=00000006
+
+[04010C0D][04010C0C][86870000][23244647][00232448]
+DU Setting Cal Done
+
+
+U-Boot 1.1.3 (Jul  4 2016 - 11:27:32)
+
+Board: Ralink APSoC DRAM:   8 MB
+relocate_code Pointer at: 807c0000
+flash manufacture id: c8, device id 40 14
+find flash: GD25Q08B
+PA/LNA:34,0
+*** Warning - bad CRC, using default environment
+
+icache: sets:512, ways:4, linesz:32 ,total:65536
+dcache: sets:256, ways:4, linesz:32 ,total:32768
+RESET MT7628 PHY!!!!!!
+Please choose the operation or press ctrl + c to stop auto boot:
+   1: Load system code to SDRAM via TFTP.
+   2: Load system code then write to Flash via TFTP.
+   3: Boot system code via Flash (default).
+   9: Load Boot Loader code then write to Flash via TFTP.
+
+You choosed 3
+                                                                              0
+
+3: System Boot system code via Flash.
+## Booting image at bc00d000 ...
+addr:0xbc00d000
+Is vxWorks Iamge.
+imgFileEnc=0xbc00d080, offset=0x80, len=0xa1a85
+RALINK_REG_GPIOMODE:0X55050414
+RALINK_REG_GPIOMODE2:0X5550555
+Before exit sysClkConnect!
+In sysClkEnable!
+Before exit sysClkEnable!
+uttmacthi7ng 6in2te8rfEacne dloL0.o..a ddon e
+ nitNum=0
+
+ Waitting for RX_DMA_BUSY status Start... done
+
+
+Tx_Ring addr: 0xa05e58c0!!!
+
+Rx_Ring addr: 0xa05e4c20!!!
+mt7628EndLoad unitNum=1
+
+
+
+                                      Version2.0
+                            Software Platform for PNE2.2
+              Copyright(C) 2001-2011 by TP-LINK TECHNOLOGIES CO., LTD.
+                      Creation date: Sep 13 2016, 14:24:28
+# eth0 macAddr = 00-19-66-FFFFFFCA-FFFFFF8B-07
+eth0 macAddr = 50-FFFFFFFA-FFFFFF84-25-44-5A
+Decompress config 0x2c20
+set mii port 0 value 0x00003100
+mt7628_phy_off port: 0
+mt7628_phy_on port: 0
+add net default: gateway 169.254.59.97
+change net 169.254.59.0
+change net 0.0.0.0
+RALINK_REG_GPIOMODE2:0X10001
+FW Version:_e2_mp
+FW Build Date:20140925171453
+803EE210:                          -                   28 76                                                                                                                                          (v
+803EE220:  06 00 00 0C 43 E1 76 28 - 00 00 00 00 00 00 FF FF      ....C.v( .....                                                                                                                     ...
+803EE230:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF 00 00      ........ .....                                                                                                                     ...
+803EE240:  00 00 20 00 00 00 00 00 - 00 00 00 00 00 00 00 00      .. ..... .....                                                                                                                     ...
+803EE250:  00 00 22 34 00 20 FF FF - 00 01 00 00 00 00 00 00      .."4. .. .....                                                                                                                     ...
+803EE260:  22 00 00 00 00 00 30 00 - 00 00 00 00 00 00 00 00      ".....0. .....                                                                                                                     ...
+803EE270:  00 94 40 BA C0 CC 22 83 - 83 83 40 CC 22 82 82 82      ..@...". ..@."                                                                                                                     ...
+803EE280:  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00      ........ .....                                                                                                                     ...
+803EE290:  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00      ........ .....                                                                                                                     ...
+803EE2A0:  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00      ........ .....                                                                                                                     ...
+803EE2B0:  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 C6 C6      ........ .....                                                                                                                     ...
+803EE2C0:  C5 C5 C4 C0 C0 84 84 84 - 85 85 85 85 00 00 00 00      ........ .....                                                                                                                     ...
+803EE2D0:  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00      ........ .....                                                                                                                     ...
+803EE2E0:  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00      ........ .....                                                                                                                     ...
+803EE2F0:  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 11 1D      ........ .....                                                                                                                     ...
+803EE300:  11 1D 1C 35 1C 35 1E 35 - 1E 35 17 19 17 19 02 00      ...5.5.5 .5...                                                                                                                     ...
+803EE310:  00 00 C9 CD 80 88 00 00 - 00 00 00 00 00 00 FF FF      ........ .....                                                                                                                     ...
+803EE320:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE330:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF 00 00      ........ .....                                                                                                                     ...
+803EE340:  00 00 00 00 00 00 00 00 - 00 00 00 00 77 00 11 1D      ........ ....w                                                                                                                     ...
+803EE350:  11 1D 15 7F 15 7F 17 7F - 17 7F 10 3B 10 3B 59 FF      .. .;.;Y.
+803EE360:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE370:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE380:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE390:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE3A0:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE3B0:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE3C0:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE3D0:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE3E0:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE3F0:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE400:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF FF FF      ........ .....                                                                                                                     ...
+803EE410:  FF FF FF FF FF FF FF FF - FF FF FF FF FF FF 00 00      ........ .....                                                                                                                     ...
+        WTBL Segment 1 info:
+                MemBaseAddr/FID:0x28000/0
+                EntrySize/Cnt:32/128
+        WTBL Segment 2 info:
+                MemBaseAddr/FID:0x40000/0
+                EntrySize/Cnt:64/128
+        WTBL Segment 3 info:
+                MemBaseAddr/FID:0x42000/64
+                EntrySize/Cnt:64/128
+        WTBL Segment 4 info:
+                MemBaseAddr/FID:0x44000/128
+                EntrySize/Cnt:32/128
+
+===============qadInit===============
